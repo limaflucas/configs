@@ -37,6 +37,16 @@
 (ac-config-default)
 (global-auto-complete-mode 1)
 
+;; Flyspell
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+(setq flyspell-issue-message-flag nil)
+
+;;Ispell
+(with-eval-after-load "ispell"
+  (setq ispell-dictionary "pt_BR,en_US")
+  (ispell-set-spellchecker-params)
+  (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
