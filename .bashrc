@@ -13,5 +13,5 @@ complete -cf sudo
 
 ### ALIASES
 alias emacs='emacs -nw'
-alias RASPB='ssh $USER@IP_ADDRESS'
+alias RASPB='ssh $USER@192.168.0.16'
 alias xflock4='light-locker-command -l'

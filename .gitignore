@@ -1,5 +1,5 @@
 session.*
 auto-save-list
-*~
+*.*~
 *.dat
 .emacs.d/elpa/archives
