@@ -8,10 +8,10 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-### CUSTOM
+# SUDO autocomplete
 complete -cf sudo
 
-### ALIASES
+# ALIASES
 alias emacs='emacs -nw'
 alias RASPB='ssh $USER@192.168.0.16'
-alias xflock4='light-locker-command -l'
+alias VMDEBDOCKER='ssh $USER@192.168.0.29'
