@@ -8,3 +8,6 @@ cp ~/.emacs .
 
 # copy emacs installed packages
 cp -r ~/.emacs.d/elpa/* .emacs.d/elpa/.
+
+# copy terminator config
+cp -r ~/.config/terminator .
