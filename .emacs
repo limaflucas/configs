@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -38,14 +37,14 @@
 (global-auto-complete-mode 1)
 
 ;; Flyspell
-(add-hook 'prog-mode-hook 'flyspell-prog-mode)
-(setq flyspell-issue-message-flag nil)
+;;(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+;;(setq flyspell-issue-message-flag nil)
 
 ;;Ispell
-(with-eval-after-load "ispell"
-  (setq ispell-dictionary "pt_BR,en_US")
-  (ispell-set-spellchecker-params)
-  (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
+;;(with-eval-after-load "ispell"
+;;  (setq ispell-dictionary "pt_BR,en_US")
+;;  (ispell-set-spellchecker-params)
+;;  (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

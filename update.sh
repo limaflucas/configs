@@ -10,7 +10,7 @@ cp ~/.emacs .
 cp -r ~/.emacs.d/elpa/* .emacs.d/elpa/.
 
 # copy terminator config
-cp -r ~/.config/terminator .
+cp -r ~/.config/terminator .config/.
 
 # copy lxqt config
-cp -r ~/.config/lxqt .
+cp -r ~/.config/lxqt .config/.
