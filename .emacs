@@ -9,15 +9,6 @@
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
-;; Doom themes configuration
-;; (require 'doom-themes)
-;; (setq doom-themes-enable-bold t
-;;       doom-themes-enable-italic t)
-;; (load-theme 'doom-one t)
-;; (doom-themes-visual-bell-config) ; Enable flashing mode-line on errors
-;; (doom-themes-neotree-config)  ; Enable custom neotree theme all-the-icons fonts must be installed!
-;; (doom-themes-org-config) ; Corrects (and improves) org-mode's native fontification.
-
 ;; Dracuma Theme
 (require 'dracula-theme)
 
@@ -37,14 +28,14 @@
 (global-auto-complete-mode 1)
 
 ;; Flyspell
-;;(add-hook 'prog-mode-hook 'flyspell-prog-mode)
-;;(setq flyspell-issue-message-flag nil)
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+(setq flyspell-issue-message-flag nil)
 
 ;;Ispell
-;;(with-eval-after-load "ispell"
-;;  (setq ispell-dictionary "pt_BR,en_US")
-;;  (ispell-set-spellchecker-params)
-;;  (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
+(with-eval-after-load "ispell"
+  (setq ispell-dictionary "pt_BR,en_US")
+  (ispell-set-spellchecker-params)
+  (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
