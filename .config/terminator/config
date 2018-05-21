@@ -1,4 +1,5 @@
 [global_config]
+  title_font = Cantarell Bold 12
 [keybindings]
 [layouts]
   [[default]]
