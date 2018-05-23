@@ -1,11 +1,12 @@
 [global_config]
-  title_font = Noto Sans Mono Medium 12
   borderless = True
+  title_font = Noto Sans Mono Medium 12
 [keybindings]
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
+      profile = default
       type = Terminal
     [[[window0]]]
       parent = ""
@@ -14,7 +15,9 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
-    cursor_shape = "underline"
+    cursor_shape = underline
     font = Noto Sans Mono Medium 12
-    use_system_font = False
+    scrollback_lines = 1000
+    scrollbar_position = hidden
     show_titlebar = False
+    use_system_font = False
