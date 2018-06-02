@@ -33,6 +33,7 @@
 
 ;;Ispell
 (with-eval-after-load "ispell"
+  (setq ispell-program-name "hunspell")
   (setq ispell-dictionary "pt_BR,en_US")
   (ispell-set-spellchecker-params)
   (ispell-hunspell-add-multi-dic "pt_BR,en_US"))
@@ -49,7 +50,9 @@
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (dracula-theme auto-complete magit auctex)))
+ '(package-selected-packages
+   (quote
+    (ac-ispell dracula-theme auto-complete magit auctex)))
  '(setq column-number-mode t)
  '(show-paren-mode t)
  '(tool-bar-mode nil))
